@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiRest", "ApiRest\ApiRest.csproj", "{404E55A8-E082-4578-857F-F4B16922F2A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoApi", "ProyectoApi\ProyectoApi.csproj", "{201D20B7-5398-4D9F-B146-951ACD9BFFBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{404E55A8-E082-4578-857F-F4B16922F2A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{404E55A8-E082-4578-857F-F4B16922F2A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{404E55A8-E082-4578-857F-F4B16922F2A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{404E55A8-E082-4578-857F-F4B16922F2A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{201D20B7-5398-4D9F-B146-951ACD9BFFBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{201D20B7-5398-4D9F-B146-951ACD9BFFBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{201D20B7-5398-4D9F-B146-951ACD9BFFBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{201D20B7-5398-4D9F-B146-951ACD9BFFBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
