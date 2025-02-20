@@ -37,25 +37,6 @@ namespace ProyectoApi.Controllers
             return Ok(leerproduc);
         }
 
-        [HttpDelete("Eliminar-Producto")]
-        public async Task<ActionResult> delete(int id)
-        {
-            try
-            {
-                bool delete = _produc.DeleteProducts(id);
-                if (delete)
-                {
-                    return Ok(new { mensaje = "'El Producto Fue Eliminado Con Exito'" });
-                }
-                else { return NotFound(new { mensaje = "No se encontro ningun producto" }); }
-            }
-
-            catch (Exception ex)
-            {
-                return StatusCode(500, new { mensaje = "ERROR INTERNO", error = ex.Message });
-            }
-        }
-
         [HttpPost("Insertar-Productos")]
         public async Task<ActionResult<Producto>> InsertProduct([FromBody] Producto producto)
         {
@@ -90,6 +71,25 @@ namespace ProyectoApi.Controllers
             }
 
             return Ok(producto);
+        }
+
+        [HttpDelete("Eliminar-Producto")]
+        public async Task<ActionResult> delete(int id)
+        {
+            try
+            {
+                bool delete = _produc.DeleteProducts(id);
+                if (delete)
+                {
+                    return Ok(new { mensaje = "'El Producto Fue Eliminado Con Exito'" });
+                }
+                else { return NotFound(new { mensaje = "No se encontro ningun producto" }); }
+            }
+
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { mensaje = "ERROR INTERNO", error = ex.Message });
+            }
         }
     }
 }

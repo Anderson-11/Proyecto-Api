@@ -180,3 +180,4 @@ C:\Users\cisne\OneDrive\Documents\ActApi\ApiRest\ProyectoApi\obj\Debug\net8.0\re
 C:\Users\cisne\OneDrive\Documents\ActApi\ApiRest\ProyectoApi\obj\Debug\net8.0\ProyectoApi.pdb
 C:\Users\cisne\OneDrive\Documents\ActApi\ApiRest\ProyectoApi\obj\Debug\net8.0\ProyectoApi.genruntimeconfig.cache
 C:\Users\cisne\OneDrive\Documents\ActApi\ApiRest\ProyectoApi\obj\Debug\net8.0\ref\ProyectoApi.dll
+C:\Users\cisne\OneDrive\Documents\ActApi\ApiRest\ProyectoApi\obj\Debug\net8.0\ProyectoApi.sourcelink.json
